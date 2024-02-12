@@ -161,8 +161,9 @@ body {
   height: auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center center;
  
-  background-size: auto;
+  background-size: cover;
   
  
     
@@ -334,7 +335,7 @@ main {
   
   margin-bottom: 15px;
   
-  max-height: 112px;
+  max-height: 190px;
   min-width: 280px;
   overflow: hidden;
   transition: var(--transition-2);
@@ -541,8 +542,9 @@ main {
 
 .service-list {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 25px;
+  
 }
 
 .service-item {
@@ -1375,7 +1377,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 220px;
     margin-bottom: 30px;
   }
 
@@ -1385,7 +1387,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 170px; height: 170px; }
 
   .info-content .name { margin-bottom: 15px; }
 
