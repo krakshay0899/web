@@ -1857,7 +1857,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 160px; }
+  .avatar-box img { width: 170px; }
 
   .info-content .name {
     white-space: nowrap;
