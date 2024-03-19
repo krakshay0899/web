@@ -335,13 +335,13 @@ main {
   
   margin-bottom: 15px;
   
-  max-height: 190px;
+  max-height: 192px;
   min-width: 280px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 440px; }
 
 .sidebar-info {
   position: relative;
@@ -1857,7 +1857,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 160px; }
 
   .info-content .name {
     white-space: nowrap;
