@@ -1925,6 +1925,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: stretch;
     gap: 25px;
  }
+  .sidebar {
+    margin-bottom: 15px;
+    min-width: 340px;
+    overflow: visible;
+    transition: var(--transition-2);
+    height: calc(100vh - 60px);
+    max-height: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+ 
 }
 
 /**
@@ -1940,6 +1954,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: stretch;
     gap: 25px;
  }
+
+
 }
 
 
