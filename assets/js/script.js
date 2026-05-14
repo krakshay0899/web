@@ -33,6 +33,25 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// dynamic title text rotation
+const titleElement = document.querySelector(".title");
+const titleTexts = [
+  "Ph.D Scholar",
+  "Researcher",
+  "Traveller",
+  "Innovator"
+];
+let titleIndex = 0;
+
+const rotateTitle = function () {
+  if (titleElement) {
+    titleElement.textContent = titleTexts[titleIndex];
+    titleIndex = (titleIndex + 1) % titleTexts.length;
+  }
+};
+
+setInterval(rotateTitle, 2000);
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
